@@ -1,4 +1,5 @@
 import React, { useEffect, useRef, useState } from "react";
+import "../css/style.css";
 import Transition from "../utils/Transition";
 import ServicesModal from "./ServicesModal";
 
@@ -21,7 +22,7 @@ function Features() {
   }, [tab]);
 
   return (
-    <section className="relative">
+    <section className="relative" id="get-service">
       {/* Section background (needs .relative class on parent and next sibling elements) */}
       <div
         className="absolute inset-0 bg-gray-100 pointer-events-none mb-16"

@@ -1,5 +1,6 @@
-import React from "react";
+import React, { useEffect } from "react";
 
+import "../css/style.css";
 import BlogSection from "../partials/BlogSection";
 import Faq from "../partials/Faq";
 import FeaturesHome from "../partials/Features";

@@ -1,9 +1,10 @@
 import React, { useEffect, useRef, useState } from "react";
+import "../css/style.css";
 import Modal from "../utils/Modal";
 
 import HeroImage from "../images/heroImage.png";
 
-function HeroHome() {
+function HeroHome({ executeScroll }) {
   const [videoModalOpen, setVideoModalOpen] = useState(false);
   const video = useRef(null);
 
@@ -74,12 +75,12 @@ function HeroHome() {
                 data-aos-delay="300"
               >
                 <div>
-                  <a
+                  <button
                     className="btn rounded-none text-white bg-yellow-600 hover:bg-yellow-500 hover:text-black w-full mb-4 sm:w-auto sm:mb-0"
                     href="#0"
                   >
                     Get Service
-                  </a>
+                  </button>
                 </div>
                 <div>
                   <a
