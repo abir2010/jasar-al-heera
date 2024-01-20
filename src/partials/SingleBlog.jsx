@@ -99,7 +99,7 @@ export default function SingleBlog() {
                 <h2 className="text-xl font-bold text-gray-800">
                   <a
                     href="#"
-                    className="active:text-rose-600 transition duration-100 hover:text-rose-500"
+                    className="active:text-yellow-600 transition duration-100 hover:text-yellow-600"
                   >
                     The Pines and the Mountains
                   </a>
@@ -111,7 +111,7 @@ export default function SingleBlog() {
                 <div>
                   <a
                     href="#"
-                    className="active:text-rose-700 font-semibold text-rose-500 transition duration-100 hover:text-rose-600"
+                    className="active:text-yellow-700 font-semibold text-yellow-600 transition duration-100 hover:text-yellow-600"
                   >
                     Read more
                   </a>
@@ -137,7 +137,7 @@ export default function SingleBlog() {
                 <h2 className="text-xl font-bold text-gray-800">
                   <a
                     href="#"
-                    className="active:text-rose-600 transition duration-100 hover:text-rose-500"
+                    className="active:text-yellow-600 transition duration-100 hover:text-yellow-600"
                   >
                     The Coding Mania
                   </a>
@@ -149,7 +149,7 @@ export default function SingleBlog() {
                 <div>
                   <a
                     href="#"
-                    className="active:text-rose-700 font-semibold text-rose-500 transition duration-100 hover:text-rose-600"
+                    className="active:text-yellow-700 font-semibold text-yellow-600 transition duration-100 hover:text-yellow-600"
                   >
                     Read more
                   </a>
@@ -175,7 +175,7 @@ export default function SingleBlog() {
                 <h2 className="text-xl font-bold text-gray-800">
                   <a
                     href="#"
-                    className="active:text-rose-600 transition duration-100 hover:text-rose-500"
+                    className="active:text-yellow-600 transition duration-100 hover:text-yellow-600"
                   >
                     Architectural Warfare
                   </a>
@@ -187,7 +187,7 @@ export default function SingleBlog() {
                 <div>
                   <a
                     href="#"
-                    className="active:text-rose-700 font-semibold text-rose-500 transition duration-100 hover:text-rose-600"
+                    className="active:text-yellow-700 font-semibold text-yellow-600 transition duration-100 hover:text-yellow-600"
                   >
                     Read more
                   </a>
@@ -213,7 +213,7 @@ export default function SingleBlog() {
                 <h2 className="text-xl font-bold text-gray-800">
                   <a
                     href="#"
-                    className="active:text-rose-600 transition duration-100 hover:text-rose-500"
+                    className="active:text-yellow-600 transition duration-100 hover:text-yellow-600"
                   >
                     Blues in Architechture
                   </a>
@@ -225,7 +225,7 @@ export default function SingleBlog() {
                 <div>
                   <a
                     href="#"
-                    className="active:text-rose-700 font-semibold text-rose-500 transition duration-100 hover:text-rose-600"
+                    className="active:text-yellow-700 font-semibold text-yellow-600 transition duration-100 hover:text-yellow-600"
                   >
                     Read more
                   </a>
