@@ -17,7 +17,7 @@ export default function About() {
                 data-aos="zoom-y-out"
               >
                 About{" "}
-                <span className="bg-clip-text text-transparent bg-gradient-to-r from-red-600 to-gray-700">
+                <span className="bg-clip-text text-transparent bg-gradient-to-r from-yellow-600 to-gray-900">
                   US
                 </span>
               </h1>
@@ -47,7 +47,7 @@ export default function About() {
             <div className="w-full lg:w-5/12 flex flex-col justify-center">
               <h1 className="text-3xl lg:text-4xl font-bold leading-9 text-gray-800 pb-4">
                 Our{" "}
-                <span className="bg-clip-text text-transparent bg-gradient-to-r from-red-600 to-gray-700">
+                <span className="bg-clip-text text-transparent bg-gradient-to-r from-yellow-600 to-gray-900">
                   Story
                 </span>
               </h1>

@@ -15,7 +15,7 @@ function SignUp() {
               <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
                 <h1 className="h1">
                   Welcome. We exist to make{" "}
-                  <span className="bg-clip-text text-transparent bg-gradient-to-r from-red-600 to-gray-700">
+                  <span className="bg-clip-text text-transparent bg-gradient-to-r from-yellow-600 to-gray-900">
                     Your Day Awesome
                   </span>
                 </h1>
@@ -77,7 +77,7 @@ function SignUp() {
                   </div>
                   <div className="flex flex-wrap -mx-3 mt-6">
                     <div className="w-full px-3">
-                      <button className="btn rounded-none text-white bg-red-600 hover:bg-red-700 w-full">
+                      <button className="btn rounded-none text-white bg-yellow-600 hover:bg-yellow-500 hover:text-black w-full">
                         Sign up
                       </button>
                     </div>

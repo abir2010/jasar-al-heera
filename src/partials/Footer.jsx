@@ -208,7 +208,7 @@ function Footer() {
                         aria-hidden="true"
                       ></span>
                       <svg
-                        className="w-3 h-3 fill-current text-blue-600 mx-3 flex-shrink-0"
+                        className="w-3 h-3 fill-current text-yellow-600 mx-3 flex-shrink-0"
                         viewBox="0 0 12 12"
                         xmlns="http://www.w3.org/2000/svg"
                       >
@@ -280,7 +280,7 @@ function Footer() {
 
           {/* Copyrights note */}
           <div className="text-sm text-gray-600 mr-4">
-            Car Polish Center. All rights reserved @2024.
+            Jasar Al Heera. All rights reserved @2024.
           </div>
         </div>
       </div>

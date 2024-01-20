@@ -12,7 +12,7 @@ export default function Contact() {
           >
             <h2 className="h2 mb-4">
               Lets{" "}
-              <span className="bg-clip-text text-transparent bg-gradient-to-r from-red-600 to-gray-700">
+              <span className="bg-clip-text text-transparent bg-gradient-to-r from-yellow-600 to-gray-900">
                 Talk
               </span>
             </h2>
@@ -33,7 +33,7 @@ export default function Contact() {
               </p>
               <ul className="mb-6 md:mb-0">
                 <li className="flex">
-                  <div className="flex h-10 w-10 items-center justify-center rounded bg-red-600 text-gray-50">
+                  <div className="flex h-10 w-10 items-center justify-center rounded bg-yellow-600 text-gray-50">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width={24}
@@ -55,15 +55,15 @@ export default function Contact() {
                       Our Address
                     </h3>
                     <p className="text-gray-600 dark:text-slate-400">
-                      1230 Maecenas Street Donec Road
+                      Sharjah-Bu Shagara, Behind King Abdul Aziz Street
                     </p>
                     <p className="text-gray-600 dark:text-slate-400">
-                      New York, EEUU
+                      Shop No 1-2-3 Sharjah-U.A.E
                     </p>
                   </div>
                 </li>
                 <li className="flex">
-                  <div className="flex h-10 w-10 items-center justify-center rounded bg-red-600 text-gray-50">
+                  <div className="flex h-10 w-10 items-center justify-center rounded bg-yellow-600 text-gray-50">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width={24}
@@ -86,15 +86,15 @@ export default function Contact() {
                       Contact
                     </h3>
                     <p className="text-gray-600 dark:text-slate-400">
-                      Mobile: +1 (123) 456-7890
+                      Mobile: 055-7722949 (Whatsapp), 050-8046072
                     </p>
                     <p className="text-gray-600 dark:text-slate-400">
-                      Mail: car-polish-center@gmail.com
+                      Mail: jasar-al-heera@gmail.com
                     </p>
                   </div>
                 </li>
                 <li className="flex">
-                  <div className="flex h-10 w-10 items-center justify-center rounded bg-red-600 text-gray-50">
+                  <div className="flex h-10 w-10 items-center justify-center rounded bg-yellow-600 text-gray-50">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width={24}
@@ -178,7 +178,7 @@ export default function Contact() {
                 <div className="text-center">
                   <button
                     type="submit"
-                    className="w-full bg-red-600 rounded-none text-white px-6 py-3 font-xl sm:mb-0"
+                    className="w-full bg-yellow-600 hover:bg-yellow-500 hover:text-black rounded-none text-white px-6 py-3 font-xl sm:mb-0"
                   >
                     Send Message
                   </button>

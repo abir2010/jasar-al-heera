@@ -11,23 +11,23 @@ export default function SingleBlog() {
           <header className="mx-auto mt-0 max-w-screen-lg rounded-t-lg bg-white pt-16 text-center shadow-lg">
             <p className="text-gray-500">Published April 4, 2022</p>
             <h1 className="mt-2 text-4xl font-bold text-gray-900 sm:text-5xl">
-              Why quit now?
+              Car Repairing is an art
             </h1>
             <p className="mt-6 text-lg text-gray-700">
               You've come way farther than you expected
             </p>
             <div className="mt-6 flex flex-wrap justify-center gap-2">
               <button className="rounded-lg bg-gray-100 px-2 py-1 font-medium text-gray-600 hover:bg-gray-200">
-                Marketing
+                car
               </button>
               <button className="rounded-lg bg-gray-100 px-2 py-1 font-medium text-gray-600 hover:bg-gray-200">
-                Branding
+                repair
               </button>
               <button className="rounded-lg bg-gray-100 px-2 py-1 font-medium text-gray-600 hover:bg-gray-200">
-                Digital
+                wash
               </button>
               <button className="rounded-lg bg-gray-100 px-2 py-1 font-medium text-gray-600 hover:bg-gray-200">
-                Identity
+                delivery
               </button>
             </div>
             <img
@@ -38,7 +38,7 @@ export default function SingleBlog() {
           </header>
           <div className="mx-auto max-w-screen-lg space-y-12 rounded-b-lg bg-white px-8 pt-10 pb-20 font-serif text-lg tracking-wide text-gray-700 sm:shadow-lg">
             <h2 className="text-2xl font-semibold">
-              First Steps to Life Betterment
+              First Steps to Wash Betterment
             </h2>
             <blockquote className="max-w-lg border-l-4 px-4">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda

@@ -46,7 +46,7 @@ function Testimonials() {
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
             <h2 className="h2 mb-4">
               Trusted by over{" "}
-              <span className="bg-clip-text text-transparent bg-gradient-to-r from-red-600 to-gray-700">
+              <span className="bg-clip-text text-transparent bg-gradient-to-r from-yellow-600 to-gray-900">
                 20,000 companies
               </span>{" "}
               all over the world
@@ -62,7 +62,7 @@ function Testimonials() {
             {/* Item */}
             <div className="flex items-center justify-center py-2 col-span-2 md:col-auto">
               <svg
-                className="max-w-full fill-current text-gray-400"
+                className="max-w-full fill-current text-yellow-600"
                 width="124"
                 height="24"
                 viewBox="0 0 124 24"
@@ -88,7 +88,7 @@ function Testimonials() {
             {/* Item */}
             <div className="flex items-center justify-center py-2 col-span-2 md:col-auto">
               <svg
-                className="max-w-full fill-current text-gray-400"
+                className="max-w-full fill-current text-yellow-600"
                 width="125"
                 height="39"
                 viewBox="0 0 125 39"
@@ -114,7 +114,7 @@ function Testimonials() {
             {/* Item */}
             <div className="flex items-center justify-center py-2 col-span-2 md:col-auto col-start-2 col-end-4">
               <svg
-                className="max-w-full fill-current text-gray-400"
+                className="max-w-full fill-current text-yellow-600"
                 width="109"
                 height="33"
                 viewBox="0 0 109 33"
@@ -132,7 +132,7 @@ function Testimonials() {
               <div className="text-center px-12 py-8 pt-20 mx-4 md:mx-0">
                 <div className="absolute top-0 -mt-8 left-1/2 transform -translate-x-1/2">
                   <svg
-                    className="absolute top-0 right-0 -mt-3 -mr-8 w-16 h-16 fill-current text-red-500"
+                    className="absolute top-0 right-0 -mt-3 -mr-8 w-16 h-16 fill-current text-yellow-500"
                     viewBox="0 0 64 64"
                     aria-hidden="true"
                     xmlns="http://www.w3.org/2000/svg"
@@ -157,7 +157,7 @@ function Testimonials() {
                 </cite>
                 <div className="text-gray-600">
                   <span>CEO & Co-Founder</span>{" "}
-                  <a className="text-red-600 hover:underline" href="#0">
+                  <a className="text-yellow-600 hover:underline" href="#0">
                     @FedEx
                   </a>
                 </div>

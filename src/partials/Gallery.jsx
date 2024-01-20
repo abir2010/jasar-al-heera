@@ -5,7 +5,7 @@ export default function Gallery() {
         <div className="max-w-3xl mx-auto text-center pb-0 md:pb-2">
           <h2 className="h2 mb-4">
             Touching{" "}
-            <span className="bg-clip-text text-transparent bg-gradient-to-r from-red-600 to-gray-700">
+            <span className="bg-clip-text text-transparent bg-gradient-to-r from-yellow-600 to-gray-900">
               Hundreds of Lives
             </span>
           </h2>

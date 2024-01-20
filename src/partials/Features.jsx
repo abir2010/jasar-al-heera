@@ -1,8 +1,10 @@
 import React, { useEffect, useRef, useState } from "react";
 import Transition from "../utils/Transition";
+import ServicesModal from "./ServicesModal";
 
 function Features() {
   const [tab, setTab] = useState(1);
+  const [open, setOpen] = useState(false);
 
   const tabs = useRef(null);
 
@@ -33,7 +35,7 @@ function Features() {
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
             <h1 className="h2 mb-4">
               Explore the{" "}
-              <span className="bg-clip-text text-transparent bg-gradient-to-r from-red-600 to-gray-700">
+              <span className="bg-clip-text text-transparent bg-gradient-to-r from-yellow-600 to-gray-900">
                 Services
               </span>
             </h1>
@@ -74,8 +76,8 @@ function Features() {
                   }}
                 >
                   <div>
-                    <div className="font-bold leading-snug tracking-tight mb-1 text-red-500">
-                      Car Polish <span className="text-black">Service</span>
+                    <div className="font-bold leading-snug tracking-tight mb-1 text-yellow-500">
+                      Polish <span className="text-black">Package</span>
                     </div>
                     <div className="text-gray-600 text-sm">
                       Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -105,8 +107,8 @@ function Features() {
                   }}
                 >
                   <div>
-                    <div className="font-bold leading-snug tracking-tight mb-1 text-red-500">
-                      Car Repairing <span className="text-black">Service</span>
+                    <div className="font-bold leading-snug tracking-tight mb-1 text-yellow-500">
+                      Wax <span className="text-black">Polish</span>
                     </div>
                     <div className="text-gray-600 text-sm">
                       Lorem ipsum dolor sit amet consectetur, adipisicing elit.
@@ -140,8 +142,8 @@ function Features() {
                   }}
                 >
                   <div>
-                    <div className="font-bold leading-snug tracking-tight mb-1 text-red-500">
-                      Delivery <span className="text-black">Service</span>
+                    <div className="font-bold leading-snug tracking-tight mb-1 text-yellow-500">
+                      Scratch <span className="text-black">Remove</span>
                     </div>
                     <div className="text-gray-600 text-sm">
                       Lorem ipsum, dolor sit amet consectetur adipisicing elit.
@@ -163,6 +165,55 @@ function Features() {
                     </svg>
                   </div>
                 </a>
+                <a
+                  className={`flex items-center text-lg p-5 rounded border transition duration-300 ease-in-out mb-3 ${
+                    tab !== 3
+                      ? "bg-white shadow-md border-gray-200 hover:shadow-lg"
+                      : "bg-gray-200 border-transparent"
+                  }`}
+                  href="#0"
+                  onClick={(e) => {
+                    e.preventDefault();
+                    setTab(3);
+                  }}
+                >
+                  <div>
+                    <div className="font-bold leading-snug tracking-tight mb-1 text-yellow-500">
+                      Car <span className="text-black">Wrapping</span>
+                    </div>
+                    <div className="text-gray-600 text-sm">
+                      Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                      Nemo provident deleniti cupiditate accusantium inventore
+                      sed e?
+                    </div>
+                  </div>
+                  <div className="flex justify-center items-center w-8 h-8 bg-white rounded-none shadow flex-shrink-0 ml-3">
+                    <svg
+                      className="w-3 h-3 fill-current"
+                      viewBox="0 0 12 12"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M11.334 8.06a.5.5 0 00-.421-.237 6.023 6.023 0 01-5.905-6c0-.41.042-.82.125-1.221a.5.5 0 00-.614-.586 6 6 0 106.832 8.529.5.5 0 00-.017-.485z"
+                        fill="#191919"
+                        fillRule="nonzero"
+                      />
+                    </svg>
+                  </div>
+                </a>
+                <div className="px-5">
+                  <button
+                    onClick={() => setOpen((o) => !o)}
+                    type="button"
+                    title="Start buying"
+                    className="w-full py-3 px-6 text-center transition dark:bg-gray-900 bg-gray-900 hover:bg-gray-800 active:bg-gray-900 focus:bg-gray-800 md:w-max"
+                  >
+                    <span className="block text-white font-semibold">
+                      All Services
+                    </span>
+                  </button>
+                </div>
+                <ServicesModal open={open} setOpen={setOpen} />
               </div>
             </div>
 

@@ -1,10 +1,8 @@
+import AOS from "aos";
+import "aos/dist/aos.css";
 import React, { useEffect } from "react";
 import { Route, Routes, useLocation } from "react-router-dom";
-
-import "aos/dist/aos.css";
 import "./css/style.css";
-
-import AOS from "aos";
 import About from "./pages/About";
 import Blogs from "./pages/Blogs";
 import Contact from "./pages/Contact";

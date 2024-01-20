@@ -18,7 +18,7 @@ export default function HeaderSecondary() {
                 <img
                   src={logoImage}
                   className="w-16 grayscale dark:contrast-50 contrast-200"
-                  alt="tailus logo"
+                  alt="logo"
                 />
               </Link>
               <div className="flex items-center md:hidden max-h-10">
@@ -66,7 +66,7 @@ export default function HeaderSecondary() {
                   <li>
                     <Link to="/" className="block md:px-3">
                       <div
-                        className="relative text-gray-800 dark:text-red-600
+                        className="relative text-gray-800 dark:text-yellow-600
                                                   before:absolute before:-inset-2 before:w-full before:h-0.5 before:origin-left dark:before:bg-yelloe-500 before:mx-auto before:mt-auto before:rounded-full before:bg-gray-800"
                       >
                         <span>Home</span>
@@ -79,7 +79,7 @@ export default function HeaderSecondary() {
                         className="relative text-gray-800
                                                   before:absolute before:-inset-2 before:w-full before:h-0.5 before:origin-left dark:before:bg-yelloe-500 before:mx-auto before:mt-auto before:rounded-full before:bg-gray-800 before:transition before:scale-x-0 group-hover:before:scale-x-100"
                       >
-                        <span className="transition group-hover:text-yellow-700 dark:text-gray-600 dark:group-hover:text-red-600">
+                        <span className="transition group-hover:text-yellow-700 dark:text-gray-600 dark:group-hover:text-yellow-600">
                           Blogs
                         </span>
                       </div>
@@ -91,7 +91,7 @@ export default function HeaderSecondary() {
                         className="relative text-gray-800
                                                   before:absolute before:-inset-2 before:w-full before:h-0.5 before:origin-left dark:before:bg-yelloe-500 before:mx-auto before:mt-auto before:rounded-full before:bg-gray-800 before:transition before:scale-x-0 group-hover:before:scale-x-100"
                       >
-                        <span className="transition group-hover:text-gray-700 dark:text-gray-600 dark:group-hover:text-red-600">
+                        <span className="transition group-hover:text-gray-700 dark:text-gray-600 dark:group-hover:text-yellow-600">
                           About
                         </span>
                       </div>
@@ -104,9 +104,9 @@ export default function HeaderSecondary() {
                   <button
                     type="button"
                     title="Start buying"
-                    className="group w-full py-3 px-6 text-center transition dark:active:bg-red-800 dark:focus:bg-yellow-900 active:bg-yellow-200 focus:bg-yellow-100 sm:w-max"
+                    className="group w-full py-3 px-6 text-center transition sm:w-max"
                   >
-                    <span className="block text-gray-600 dark:text-gray-600 font-semibold group-focus:text-yellow-700 dark:group-focus:text-yellow-100">
+                    <span className="block text-gray-600 dark:text-gray-600 font-semibold group-focus:text-yellow-700 dark:group-focus:text-yellow-600">
                       Login
                     </span>
                   </button>

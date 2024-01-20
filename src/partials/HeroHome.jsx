@@ -50,13 +50,13 @@ function HeroHome() {
           {/* Section header */}
           <div className="text-center pb-12 md:pb-16">
             <h1
-              className="text-4xl md:text-6xl font-extrabold leading-tighter tracking-tighter mb-4"
+              className="text-4xl md:text-5xl font-extrabold leading-tighter tracking-tighter mb-4"
               data-aos="zoom-y-out"
             >
-              Make your Car Shinny{" "}
-              <span className="bg-clip-text text-transparent bg-gradient-to-r from-red-600 to-gray-700">
-                With US
-              </span>
+              Make your Car Shinny With{" "}
+              <div className="bg-clip-text text-transparent bg-gradient-to-r from-yellow-300 to-black">
+                JASAR AL HEERA
+              </div>
             </h1>
             <div className="max-w-3xl mx-auto">
               <p
@@ -75,7 +75,7 @@ function HeroHome() {
               >
                 <div>
                   <a
-                    className="btn rounded-none text-white bg-red-600 hover:bg-red-700 w-full mb-4 sm:w-auto sm:mb-0"
+                    className="btn rounded-none text-white bg-yellow-600 hover:bg-yellow-500 hover:text-black w-full mb-4 sm:w-auto sm:mb-0"
                     href="#0"
                   >
                     Get Service

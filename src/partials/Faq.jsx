@@ -6,7 +6,7 @@ export default function Faq() {
           <div className="max-w-3xl mx-auto text-center pb-2 md:pb-2">
             <h2 className="h2 mb-4">
               Frequently Asked{" "}
-              <span className="bg-clip-text text-transparent bg-gradient-to-r from-red-600 to-gray-700">
+              <span className="bg-clip-text text-transparent bg-gradient-to-r from-yellow-600 to-gray-900">
                 Questions
               </span>
             </h2>

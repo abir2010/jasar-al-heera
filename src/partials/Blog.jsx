@@ -7,14 +7,14 @@ export default function Blog() {
         <Link to="/blog/1" className="shrink-0 my-4 md:mr-8 md:max-w-sm">
           <img
             className="rounded-2xl"
-            src="https://images.unsplash.com/photo-1663287695452-bf59337d8746?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw4fHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60"
+            src="https://images.unsplash.com/photo-1577801601678-3b379e670f9d?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
             alt
           />
         </Link>
         <div className="py-4 sm:py-8">
           <Link
             to="/blog/1"
-            className="mb-6 block text-2xl font-medium text-gray-700 hover:text-red-600"
+            className="mb-6 block text-2xl font-medium text-gray-700 hover:text-yellow-600"
           >
             Long walks are helpful in decreasing stress levels
           </Link>
@@ -26,7 +26,7 @@ export default function Blog() {
           <div className="flex items-center">
             <img
               className="h-10 w-10 rounded-full object-cover"
-              src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              src="https://images.unsplash.com/photo-1519456264917-42d0aa2e0625?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
               alt="Simon Lewis"
             />
             <p className="ml-4 w-56">

@@ -10,7 +10,7 @@ export default function Blogs() {
         <div data-aos="zoom-in" className="my-4">
           <h2 className="h2 mb-4 text-center">
             Read Our Trending{" "}
-            <span className="bg-clip-text text-transparent bg-gradient-to-r from-red-600 to-gray-700">
+            <span className="bg-clip-text text-transparent bg-gradient-to-r from-yellow-600 to-gray-900">
               Blogs
             </span>
           </h2>
