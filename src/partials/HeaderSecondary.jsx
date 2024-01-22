@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import logoImage from "../images/logoPng.png";
+import logoImage from "../images/logo.png";
 
 export default function HeaderSecondary() {
   return (
@@ -17,7 +17,7 @@ export default function HeaderSecondary() {
               <Link to="/" aria-label="logo">
                 <img
                   src={logoImage}
-                  className="w-28 dark:contrast-50 contrast-200"
+                  className="w-32 dark:contrast-50 contrast-200"
                   alt="logo"
                 />
               </Link>

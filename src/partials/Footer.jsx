@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import logoImage from "../images/logoPng.png";
+import logoImage from "../images/logo.png";
 
 function Footer() {
   return (
@@ -15,7 +15,7 @@ function Footer() {
               <Link to="/" className="inline-block" aria-label="Cruip">
                 <img
                   src={logoImage}
-                  className="w-28 dark:contrast-50 contrast-200"
+                  className="w-36 dark:contrast-50 contrast-200"
                   alt="tailus logo"
                 />
               </Link>
